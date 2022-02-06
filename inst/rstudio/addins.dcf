@@ -1,0 +1,74 @@
+Name: Format Italic
+Description: Replace Selected Text With 'roxygen2' Italics Format
+Binding: snorkel_italic
+Interactive: false
+
+Name: Format Bold
+Description: Replace Selected Text With 'roxygen2' Bold Format
+Binding: snorkel_bold
+Interactive: false
+
+Name: Format Code
+Description: Replace Selected Text With 'roxygen2' Code Format
+Binding: snorkel_code
+Interactive: false
+
+Name: Format Package
+Description: Replace Selected Text With 'roxygen2' Package Format
+Binding: snorkel_package
+Interactive: false
+
+Name: Link to Function (This Package)
+Description: Replace With Link To Function In This Package
+Binding: snorkel_fn_this_pkg
+Interactive: false
+
+Name: Link To Function (Another Package)
+Description: Replace With Link To Function In Another Package
+Binding: snorkel_fn_other_pkg
+Interactive: false
+
+Name: Link To Dest But Show Name
+Description: Replace With Link To Dest But Show Name
+Binding: snorkel_link_dest_name
+Interactive: false
+
+Name: Link To Function (Another Package, Show Name)
+Description: Replace With Link To Function in Another Package And Show Name
+Binding: snorkel_link_fn_other_pkg_name
+Interactive: false
+
+Name: Link To An S4 Class
+Description: Replace With Link To An S4 Class
+Binding: snorkel_link_s4_class
+Interactive: false
+
+Name: Link To Web
+Description: Replace With Link To Web
+Binding: snorkel_url
+Interactive: false
+
+Name: Link To Web (Named)
+Description: Replace With Link To Web With Label
+Binding: snorkel_url_named
+Interactive: false
+
+Name: Link to Email
+Description: Replace With Link To An Email
+Binding: snorkel_email
+Interactive: false
+
+Name: List (Ordered)
+Description: Insert Example Ordered (Numbered) List
+Binding: snorkel_list_ordered
+Interactive: false
+
+Name: List (Bulleted)
+Description: Insert Example Unordered (Bulleted) List
+Binding: snorkel_list_unordered
+Interactive: false
+
+Name: List (Named)
+Description: Insert Example Definition (Named) List
+Binding: snorkel_list_definition
+Interactive: false

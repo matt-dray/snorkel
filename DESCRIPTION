@@ -1,0 +1,13 @@
+Package: snorkel
+Title: RStudio Addins To Format 'roxygen2'
+Version: 0.0.0.9000
+Authors@R: 
+    person("Matt", "Dray", , "medray@gmail.com", role = c("aut", "cre"))
+Description: Insert formatting code for 'roxygen2' functtion documentation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    rstudioapi
