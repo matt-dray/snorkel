@@ -8,21 +8,21 @@
 #'
 #' @export
 snorkel_italic <- function() {
-  .replace_text("\\emph{", "}")
+  .replace_text(pre_string = "\\emph{", post_string = "}")
 }
 
 #' Replace With Bold Format
 #'
 #' @export
 snorkel_bold <- function() {
-  .replace_text("\\strong{", "}")
+  .replace_text(pre_string = "\\strong{", post_string = "}")
 }
 
 #' Replace With Code Format
 #'
 #' @export
 snorkel_code <- function() {
-  .replace_text("\\code{", "}")
+  .replace_text(pre_string = "\\code{", post_string = "}")
 }
 
 
@@ -30,7 +30,7 @@ snorkel_code <- function() {
 #'
 #' @export
 snorkel_package <- function() {
-  .replace_text("\\pkg{", "}")
+  .replace_text(pre_string = "\\pkg{", post_string = "}")
 }
 
 
@@ -43,35 +43,43 @@ snorkel_package <- function() {
 #'
 #' @export
 snorkel_fn_this_pkg <- function() {
-  .replace_text("\\code{\\link{", "}")
+  .replace_text(pre_string = "\\code{\\link{", post_string = "}")
 }
 
 #' Replace With Link To Function In Another Package
 #'
 #' @export
 snorkel_fn_other_pkg <- function() {
-  .replace_text("\\code{\\link[", "]{", "}}")
+  .replace_text(
+    pre_string = "\\code{\\link[",
+    mid_string = "]{",
+    post_string = "}}"
+  )
 }
 
 #' Replace With Link To Dest But Show Name
 #'
 #' @export
 snorkel_link_dest_name <- function() {
-  .replace_text("\\link[=dest]{", "}")
+  .replace_text(pre_string = "\\link[=dest]{", post_string = "}")
 }
 
 #' Replace With Link To Function in Another Package And Show Name
 #'
 #' @export
 snorkel_link_fn_other_pkg_name <- function() {
-  .replace_text("\\code{\\link[", ":", "}")
+  .replace_text(
+    pre_string = "\\code{\\link[",
+    mid_string = ":",
+    post_string = "}"
+  )
 }
 
 #' Replace With Link To An S4 Class
 #'
 #' @export
 snorkel_link_s4_class <- function() {
-  .replace_text("\\linkS4class{", "}")
+  .replace_text(pre_string = "\\linkS4class{", post_string = "}")
 }
 
 # Web ----
@@ -81,21 +89,21 @@ snorkel_link_s4_class <- function() {
 #'
 #' @export
 snorkel_url <- function() {
-  .replace_text("\\url{", "}")
+  .replace_text(pre_string = "\\url{", post_string = "}")
 }
 
 #' Replace With Link To Web With Label
 #'
 #' @export
 snorkel_url_named <- function() {
-  .replace_text("\\href{", "}{Link text}")
+  .replace_text(pre_string = "\\href{", post_string = "}{Link text}")
 }
 
 #' Replace With Link To An Email
 #'
 #' @export
 snorkel_email <- function() {
-  .replace_text("\\email{", "}")
+  .replace_text(pre_string = "\\email{", post_string = "}")
 }
 
 
