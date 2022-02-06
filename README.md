@@ -8,18 +8,20 @@
 [![Project Status: WIP – Initial development is in progress, but there
 has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![R-CMD-check](https://github.com/matt-dray/snorkel/workflows/R-CMD-check/badge.svg)](https://github.com/matt-dray/snorkel/actions)
 <!-- badges: end -->
 
 An R package of RStudio Addins to help you [insert {roxygen2}
-formatting](https://roxygen2.r-lib.org/) when you develop R packages.
+formatting](https://roxygen2.r-lib.org/) to your function documentation.
 
 You put a snorkel in your mouth to help you breathe oxygen; you put a
 {snorkel} in your addins to help you write with {roxygen2}.
 
 The package aims to cover [often-used roxygen formatting
-tags](https://roxygen2.r-lib.org/articles/formatting.html). You can also
-learn more in the [Writing R
-extensions](https://cran.r-project.org/doc/manuals/R-exts.html#Marking-text).
+tags](https://roxygen2.r-lib.org/articles/formatting.html). Learn more
+on the [Writing R
+extensions](https://cran.r-project.org/doc/manuals/R-exts.html#Marking-text)
+site.
 
 ## Deep breath
 
