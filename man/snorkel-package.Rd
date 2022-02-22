@@ -4,12 +4,20 @@
 \name{snorkel-package}
 \alias{snorkel}
 \alias{snorkel-package}
-\title{snorkel: RStudio Addins To Format 'roxygen2'}
+\title{snorkel: RStudio Addins To Help Format 'roxygen2'}
 \description{
-Insert formatting code for 'roxygen2' functtion documentation.
+Insert, or replace text with, formatting code for 'roxygen2' function documentation in a package, like making text bold, inserting a URL, or linking to functions in other packages.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/co-analysis/snorkel}
+  \item Report bugs at \url{https://github.com/co-analysis/snorkel/issues}
+}
+
 }
 \author{
-\strong{Maintainer}: Matt Dray \email{medray@gmail.com}
+\strong{Maintainer}: Matt Dray \email{mwdray@gmail.com}
 
 }
 \keyword{internal}
