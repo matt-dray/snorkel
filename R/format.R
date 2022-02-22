@@ -43,7 +43,7 @@ snorkel_package <- function() {
 #'
 #' @export
 snorkel_fn_this_pkg <- function() {
-  .replace_text(pre_string = "\\code{\\link{", post_string = "}")
+  .replace_text(pre_string = "\\code{\\link{", post_string = "}}")
 }
 
 #' Replace With Link To Function In Another Package
@@ -71,7 +71,7 @@ snorkel_link_fn_other_pkg_name <- function() {
   .replace_text(
     pre_string = "\\code{\\link[",
     mid_string = ":",
-    post_string = "}"
+    post_string = "]}"
   )
 }
 
