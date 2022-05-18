@@ -1,3 +1,7 @@
+# snorkel 0.0.0.9001
+
+* Inserted line breaks into lists.
+
 # snorkel 0.0.0.9000
 
 * Created package.

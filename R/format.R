@@ -115,10 +115,10 @@ snorkel_email <- function() {
 snorkel_list_ordered <- function() {
   rstudioapi::insertText(
     paste0(
-      "#' \\enumerate{",
-      "#'   \\item First item",
-      "#'   \\item Second item",
-      "#' }"
+      "#' \\enumerate{", "\n",
+      "#'   \\item First item",  "\n",
+      "#'   \\item Second item", "\n",
+      "#' }", "\n"
     )
   )
 }
@@ -129,10 +129,10 @@ snorkel_list_ordered <- function() {
 snorkel_list_unordered <- function() {
   rstudioapi::insertText(
     paste0(
-      "#' \\itemize{",
-      "#'   \\item First item",
-      "#'   \\item Second item",
-      "#' }"
+      "#' \\itemize{", "\n",
+      "#'   \\item First item", "\n",
+      "#'   \\item Second item", "\n",
+      "#' }", "\n"
     )
   )
 }
@@ -143,10 +143,10 @@ snorkel_list_unordered <- function() {
 snorkel_list_definition <- function() {
   rstudioapi::insertText(
     paste0(
-      "#' \\describe{",
-      "#'   \\item{One}{First item}",
-      "#'   \\item{Two}{Second item}",
-      "#' }"
+      "#' \\describe{", "\n",
+      "#'   \\item{One}{First item}", "\n",
+      "#'   \\item{Two}{Second item}", "\n",
+      "#' }", "\n"
     )
   )
 }
