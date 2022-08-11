@@ -4,6 +4,12 @@
     <loc>/404.html</loc>
   </url>
   <url>
+    <loc>/CODE_OF_CONDUCT.html</loc>
+  </url>
+  <url>
+    <loc>/CONTRIBUTING.html</loc>
+  </url>
+  <url>
     <loc>/LICENSE-text.html</loc>
   </url>
   <url>
@@ -25,51 +31,48 @@
     <loc>/reference/index.html</loc>
   </url>
   <url>
+    <loc>/reference/rd_bold.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_code.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_email.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_fn_other_pkg.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_fn_this_pkg.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_italic.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_link_fn_other_pkg_name.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_link_s4_class.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_list_definition.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_list_ordered.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_list_unordered.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_package.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_url.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rd_url_named.html</loc>
+  </url>
+  <url>
     <loc>/reference/snorkel-package.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_bold.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_code.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_email.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_fn_other_pkg.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_fn_this_pkg.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_italic.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_link_dest_name.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_link_fn_other_pkg_name.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_link_s4_class.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_list_definition.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_list_ordered.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_list_unordered.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_package.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_url.html</loc>
-  </url>
-  <url>
-    <loc>/reference/snorkel_url_named.html</loc>
   </url>
 </urlset>
