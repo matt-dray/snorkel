@@ -2,3 +2,12 @@ url: ~
 template:
   bootstrap: 5
 
+reference:
+- title: "Rd markup"
+  desc: "Format your function documentation with Rd (R Documentation) markup."
+  contents:
+  - starts_with("rd_")
+- title: "Breathe"
+  desc: "It's important to stop and breathe from time-to-time."
+  contents:
+  - breathe

@@ -1,30 +1,17 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # {snorkel}
 
 <!-- badges: start -->
-
-[![Project Status: WIP – Initial development is in progress, but there
-has not yet been a stable, usable release suitable for the
-public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![R-CMD-check](https://github.com/matt-dray/snorkel/workflows/R-CMD-check/badge.svg)](https://github.com/matt-dray/snorkel/actions)
+[![Blog post](https://img.shields.io/badge/rostrum.blog-post-008900?labelColor=000000&logo=data%3Aimage%2Fgif%3Bbase64%2CR0lGODlhEAAQAPEAAAAAABWCBAAAAAAAACH5BAlkAAIAIf8LTkVUU0NBUEUyLjADAQAAACwAAAAAEAAQAAAC55QkISIiEoQQQgghRBBCiCAIgiAIgiAIQiAIgSAIgiAIQiAIgRAEQiAQBAQCgUAQEAQEgYAgIAgIBAKBQBAQCAKBQEAgCAgEAoFAIAgEBAKBIBAQCAQCgUAgEAgCgUBAICAgICAgIBAgEBAgEBAgEBAgECAgICAgECAQIBAQIBAgECAgICAgICAgECAQECAQICAgICAgICAgEBAgEBAgEBAgICAgICAgECAQIBAQIBAgECAgICAgIBAgECAQECAQIBAgICAgIBAgIBAgEBAgECAgECAgICAgICAgECAgECAgQIAAAQIKAAAh%2BQQJZAACACwAAAAAEAAQAAAC55QkIiESIoQQQgghhAhCBCEIgiAIgiAIQiAIgSAIgiAIQiAIgRAEQiAQBAQCgUAQEAQEgYAgIAgIBAKBQBAQCAKBQEAgCAgEAoFAIAgEBAKBIBAQCAQCgUAgEAgCgUBAICAgICAgIBAgEBAgEBAgEBAgECAgICAgECAQIBAQIBAgECAgICAgICAgECAQECAQICAgICAgICAgEBAgEBAgEBAgICAgICAgECAQIBAQIBAgECAgICAgIBAgECAQECAQIBAgICAgIBAgIBAgEBAgECAgECAgICAgICAgECAgECAgQIAAAQIKAAA7)](https://www.rostrum.blog/2022/08/11/quartostamp-snorkel/)
 <!-- badges: end -->
 
-An R package of RStudio Addins to help you [insert {roxygen2}
-formatting](https://roxygen2.r-lib.org/) to your function documentation.
+An R package containing an RStudio Addin to help you insert [R Documentation (Rd) markup](https://cran.r-project.org/doc/manuals/R-exts.html#Rd-format) to your package's function documentation.
 
-You put a snorkel in your mouth to help you breathe oxygen; you put a
-{snorkel} in your addins to help you write with {roxygen2}.
+You put a snorkel in your mouth to help you breathe oxygen; you put a {snorkel} in your Addins to help you prepare documentation with [{roxygen2}](https://roxygen2.r-lib.org/index.html).
 
-The package aims to cover [often-used roxygen formatting
-tags](https://roxygen2.r-lib.org/articles/formatting.html). Learn more
-on the [Writing R
-extensions](https://cran.r-project.org/doc/manuals/R-exts.html#Marking-text)
-site. I notice that [Jozef has also created
-something](https://gitlab.com/jozefhajnala/jhaddins) along these lines.
-
-## Deep breath
+## Install
 
 Install from Github with:
 
@@ -33,28 +20,30 @@ install.packages("remotes")  # if not already installed
 remotes::install_github("matt-dray/snorkel")
 ```
 
-After installation, you may need to restart R. Then you can access the
-{snorkel} functions from the ‘Addins’ menu in RStudio.
+## Use
 
-## Dive in
+To use the Addin:
 
-Select some text in your functions script and choose from the addins the
-appropriate function for your needs. If you want to make a word bold,
-highlight it and then choose ‘Format Bold’ from the addin. This will
-change the text from `This is bold` to `This is \strong{bold}`, for
-example.
+1. Select some text in your function documentation to which you'd like to apply Rd markup (e.g. bold, italics), or place the cursor where you'd like to insert an Rd skeleton (i.e. the functions that insert lists)
+1. Click the 'RStudio Addins' dropdown at the top of the RStudio IDE
+1. Scroll/search for 'SNORKEL' and click the function you want
 
-Special cases are ‘Link To Function (Another Package)’ or ‘Link To
-Function (Another Package, Show Name)’. Both need as input the package
-name and the function name that you’re linking to. To do this, type this
-like ‘package::function’, select it and choose the the function you want
-from the addins menu.
+For speed, you can also search for the functions from [the RStudio command palette](https://www.rstudio.com/blog/rstudio-v1-4-preview-command-palette/) or create [custom RStudio keyboard shortcuts](https://support.rstudio.com/hc/en-us/articles/206382178-Customizing-Keyboard-Shortcuts-in-the-RStudio-IDE).
 
-Note that the ‘List’ functions will insert an example, rather than
-replacing any selected text.
+So, for example, you could highlight the word `bold` in `#' This is bold` and select the 'Format Bold' function from the Addin, resulting in `#' This is \strong{bold}`.
+
+Special cases are ‘Link To Function (Another Package)’ and ‘Link To Function (Another Package, Show Name)’. Both need as input the package name and the function name that you’re linking to, which you should supply in the form 'package::function'.
+
+## Help
+
+For help with {snorkel} functions, type `?snorkel::` into the R console and select from the autocomplete suggestions. You can also take a look at [the reference page on the package website](https://matt-dray.github.io/snorkel/reference/index.html).
+
+## Demo
 
 <div class="figure">
-
-<img src="man/figures/snorkel.gif" alt="Gif of RStudio Addin being used to add roxygen2 tags to selected text in the documentation for a function. Addins used are: format as bold, link to function in another package, and make hyperlink." width="100%"/>
-
+<img src="man/figures/snorkel.gif" alt="Gif of RStudio Addin being used to add roxygen2 tags to selected text in the documentation for a function. Addins used are: format as bold, link to function in another package, and make hyperlink." width="75%"/>
 </div>
+
+## Code of Conduct
+
+Please note that the {snorkel} project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.

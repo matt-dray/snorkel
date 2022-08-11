@@ -4,7 +4,7 @@
 \alias{breathe}
 \title{Take Time Out To Breathe}
 \usage{
-breathe(times = 3, seconds = 4)
+breathe(times = 3L, seconds = 5)
 }
 \arguments{
 \item{times}{Numeric. Number of times to breathe.}

@@ -7,14 +7,18 @@
 #' @export
 #'
 #' @examples \donttest{breathe()}
-breathe <- function(times = 3, seconds = 4) {
+breathe <- function(times = 3L, seconds = 5) {
 
-  n <- 1
+  if (!inherits(times, "integer") | !inherits(seconds, "numeric")) {
+    stop("'times' must be an integer, 'seconds' must be numeric.")
+  }
+
+  n <- 0
 
   while (n < times) {
-    cat("Deep breath in\n")
+    message("Deep breath in...")
     Sys.sleep(seconds)
-    cat("And out\n")
+    message("And out...")
     Sys.sleep(seconds)
     n <- n + 1
   }

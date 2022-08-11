@@ -1,74 +1,74 @@
-Name: Format Italic
-Description: Replace selected text with 'roxygen2' italics format
-Binding: snorkel_italic
-Interactive: false
-
 Name: Format Bold
-Description: Replace selected text with 'roxygen2' 'roxygen2' bold format
-Binding: snorkel_bold
+Description: Surround selected text with Rd markup for bold.
+Binding: rd_bold
 Interactive: false
 
 Name: Format Code
-Description: Replace selected text with 'roxygen2' 'roxygen2' code format
-Binding: snorkel_code
+Description: Surround selected text with Rd markup for inline code.
+Binding: rd_code
+Interactive: false
+
+Name: Format Italic
+Description: Surround selected text with Rd markup for italic.
+Binding: rd_italic
 Interactive: false
 
 Name: Format Package
-Description: Replace selected text with 'roxygen2' 'roxygen2' package format
-Binding: snorkel_package
-Interactive: false
-
-Name: Link to Function (This Package)
-Description: Replace selected text With Link To Function In This Package
-Binding: snorkel_fn_this_pkg
-Interactive: false
-
-Name: Link To Function (Another Package)
-Description: Replace selected text with link to function in another package
-Binding: snorkel_fn_other_pkg
-Interactive: false
-
-Name: Link To Dest (Show Name)
-Description: Replace selected text with link to dest but show name
-Binding: snorkel_link_dest_name
-Interactive: false
-
-Name: Link To Function (Another Package, Show Name)
-Description: Replace selected text with link to function in another package and show name
-Binding: snorkel_link_fn_other_pkg_name
-Interactive: false
-
-Name: Link To S4 Class
-Description: Replace selected text with link to an S4 class
-Binding: snorkel_link_s4_class
-Interactive: false
-
-Name: Link To Web
-Description: Replace selected text with a link to the web
-Binding: snorkel_url
-Interactive: false
-
-Name: Link To Web (Named)
-Description: Replace selected text with a link to the web, with a label
-Binding: snorkel_url_named
-Interactive: false
-
-Name: Link to Email
-Description: Replace selected text with a link an email address
-Binding: snorkel_email
+Description: Surround selected text with Rd markup for package names.
+Binding: rd_package
 Interactive: false
 
 Name: Insert List (Ordered)
-Description: Insert example ordered (numbered) list
-Binding: snorkel_list_ordered
+Description: Insert an Rd markup skeleton for an ordered (numbered) list.
+Binding: rd_list_ordered
 Interactive: false
 
 Name: Insert List (Bulleted)
-Description: Insert example unordered (bulleted) list
-Binding: snorkel_list_unordered
+Description: Insert an Rd markup skeleton for an unordered (bulleted) list.
+Binding: rd_list_unordered
 Interactive: false
 
 Name: Insert List (Named)
-Description: Insert example definition (named) list
-Binding: snorkel_list_definition
+Description: Insert an Rd markup skeleton for a definition (named) list.
+Binding: rd_list_definition
+Interactive: false
+
+Name: Link to Email
+Description: Surround selected text with Rd markup for an email link.
+Binding: rd_email
+Interactive: false
+
+Name: Link To Function (Another Package)
+Description: Surround selected text (in the form 'package::function') with Rd
+    markup that links to a function in another package.
+Binding: rd_fn_other_pkg
+Interactive: false
+
+Name: Link To Function (Another Package, Show Name)
+Description: Surround selected text (in the form 'package::function') with Rd
+    markup that links to a function in another package and shows that package's
+    name.
+Binding: rd_link_fn_other_pkg_name
+Interactive: false
+
+Name: Link to Function (This Package)
+Description: Surround selected text with Rd markup that links to a function in
+    the current package.
+Binding: rd_fn_this_pkg
+Interactive: false
+
+Name: Link To S4 Class
+Description: Surround selected text with Rd markup to link to an S4 class.
+Binding: rd_link_s4_class
+Interactive: false
+
+Name: Link To Web
+Description: Surround selected URL text with Rd markup for a link to the web.
+Binding: rd_url
+Interactive: false
+
+Name: Link To Web (Named)
+Description: Surround selected URL text with Rd markup for a link to the web
+    (URL) and show a text label.
+Binding: rd_url_named
 Interactive: false
