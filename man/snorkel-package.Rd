@@ -11,8 +11,8 @@ Insert, or replace text with, formatting code for 'roxygen2' function documentat
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/co-analysis/snorkel}
-  \item Report bugs at \url{https://github.com/co-analysis/snorkel/issues}
+  \item \url{https://github.com/matt-dray/snorkel}
+  \item Report bugs at \url{https://github.com/matt-dray/snorkel/issues}
 }
 
 }

@@ -6,8 +6,8 @@ Authors@R: person(given = "Matt", family = "Dray",
 Description: Insert, or replace text with, formatting code for 'roxygen2'
     function documentation in a package, like making text bold, inserting a URL,
     or linking to functions in other packages.
-URL: https://github.com/co-analysis/snorkel
-BugReports: https://github.com/co-analysis/snorkel/issues
+URL: https://github.com/matt-dray/snorkel
+BugReports: https://github.com/matt-dray/snorkel/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
