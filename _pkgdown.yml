@@ -6,7 +6,17 @@ reference:
 - title: "Replace selected text"
   desc: "Format selected text with Rd (R Documentation) markup."
   contents:
-  - matches("^rd_[^list]")
+  - rd_bold
+  - rd_code
+  - rd_email
+  - rd_fn_other_pkg
+  - rd_fn_this_pkg
+  - rd_italic
+  - rd_link_fn_other_pkg_name
+  - rd_link_s4_class
+  - rd_package
+  - rd_url
+  - rd_url_named
 - title: "Insert list templates"
   desc: "Insert {roxygen2} blocks that are skeletons for creating lists."
   contents:
