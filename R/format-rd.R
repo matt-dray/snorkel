@@ -10,7 +10,9 @@
 #' Surround selected text with Rd markup for italic.
 #'
 #' @details
-#' Example output: `\emph{text}`
+#' * Selected text: `text`
+#' * Result of function: `\emph{text}`
+#' * Example output with no text selection: `\emph{}`
 #'
 #' @references
 #' \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}
@@ -26,7 +28,9 @@ rd_italic <- function() {
 #' Surround selected text with Rd markup for bold.
 #'
 #' @details
-#' Example output: `\strong{text}`
+#' * Selected text: `text`
+#' * Result of function: `\strong{text}`
+#' * Example output with no text selection: `\strong{}`
 #'
 #' @references
 #' \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}
@@ -42,7 +46,9 @@ rd_bold <- function() {
 #' Surround selected text with Rd markup for inline code.
 #'
 #' @details
-#' Example output: `\code{text}`
+#' * User-selected text: `text`
+#' * Result of function: `\code{text}`
+#' * Example output with no text selection: `\code{}`
 #'
 #' @references
 #' \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}
@@ -58,7 +64,9 @@ rd_code <- function() {
 #' Surround selected text with Rd markup for package names.
 #'
 #' @details
-#' Example output: `\pkg{package}`
+#' * User-selected text: `package`
+#' * Result of function: `\pkg{package}`
+#' * Example output with no text selection: `\pkg{}`
 #'
 #' @references
 #' \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}
@@ -81,7 +89,9 @@ rd_package <- function() {
 #' current package.
 #'
 #' @details
-#' Example output: `\code{\link{text}}`
+#' * User-selected text: `text`
+#' * Result of function: `\code{\link{text}}`
+#' * Example output with no text selection: `\code{\link{}}`
 #'
 #' @references
 #' \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}
@@ -98,7 +108,9 @@ rd_fn_this_pkg <- function() {
 #' links to a function in another package.
 #'
 #' @details
-#' Example output: `\code{\link[package]{function}}`
+#' * User-selected text: `package::function`
+#' * Result of function: `\code{\link[package]{function}}`
+#' * Example output with no text selection: `\code{\link[]{}}`
 #'
 #' @references
 #' \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}
@@ -119,7 +131,9 @@ rd_fn_other_pkg <- function() {
 #' links to a function in another package and shows that package's name.
 #'
 #' @details
-#' Example output: `\code{\link[package:function]}`
+#' * User-selected text: `package::function`
+#' * Result of function: `\code{\link[package:function]}`
+#' * Example output with no text selection: `\code{\link[:]}`
 #'
 #' @references
 #' \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}
@@ -139,7 +153,9 @@ rd_link_fn_other_pkg_name <- function() {
 #' Surround selected text with Rd markup to link to an S4 class.
 #'
 #' @details
-#' Example output: `\linkS4class{class}`
+#' * User-selected text: `class`
+#' * Result of function: `\linkS4class{class}`
+#' * Example output with no text selection: `\linkS4class{}`
 #'
 #' @references
 #' \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}
@@ -159,7 +175,9 @@ rd_link_s4_class <- function() {
 #' Surround selected URL text with Rd markup for a link to the web.
 #'
 #' @details
-#' Example output: `\url{url}`
+#' * User-selected text: `url`
+#' * Result of function: `\url{url}`
+#' * Example output with no text selection: `\url{}`
 #'
 #' @references
 #' \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}
@@ -176,7 +194,9 @@ rd_url <- function() {
 #' text label.
 #'
 #' @details
-#' Example output: `\href{url}{description}`
+#' * User-selected text: `url`
+#' * Result of function: `\href{url}{Link text}`
+#' * Example output with no text selection: `\href{}{Link text}`
 #'
 #' @references
 #' \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}
@@ -192,7 +212,9 @@ rd_url_named <- function() {
 #' Surround selected text with Rd markup for an email link.
 #'
 #' @details
-#' Example output: `\email{address}`
+#' * User-selected text: `address`
+#' * Result of function: `\email{address}`
+#' * Example output with no text selection: `\email{}`
 #'
 #' @references
 #' \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}

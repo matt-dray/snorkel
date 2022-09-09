@@ -1,3 +1,9 @@
+# snorkel 0.1.0
+
+* Updated to release v0.1.0.
+* Updated `.replace_text()` helper so that it includes the 'mid-string' element if the user uses any of the addin functions without having first selected some text (#1), also updated the function documentation to show the outcome of using a function if no text is selected first.
+* Separated functions for (a) list insertion and (b) text replacement into their own sections on the reference page of the pkgdown website.
+
 # snorkel 0.0.0.9002
 
 * Changed names of functions inserting roxygen syntax to `rd_*()` from `snorkel_*()` (#4).

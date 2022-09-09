@@ -1,6 +1,6 @@
 Package: snorkel
-Title: RStudio Addins To Help Format 'roxygen2'
-Version: 0.0.0.9002
+Title: RStudio Addin To Help Format 'roxygen2'
+Version: 0.1.0
 Authors@R: person(given = "Matt", family = "Dray",
                   email = "mwdray@gmail.com", role = c("aut", "cre"))
 Description: Insert, or replace text with, formatting code for 'roxygen2'

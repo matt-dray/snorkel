@@ -10,7 +10,11 @@ rd_package()
 Surround selected text with Rd markup for package names.
 }
 \details{
-Example output: \verb{\pkg{package}}
+\itemize{
+\item User-selected text: \code{package}
+\item Result of function: \verb{\pkg{package}}
+\item Example output with no text selection: \verb{\pkg{}}
+}
 }
 \references{
 \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}

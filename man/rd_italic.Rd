@@ -10,7 +10,11 @@ rd_italic()
 Surround selected text with Rd markup for italic.
 }
 \details{
-Example output: \verb{\\emph\{text\}}
+\itemize{
+\item Selected text: \code{text}
+\item Result of function: \verb{\\emph\{text\}}
+\item Example output with no text selection: \verb{\\emph\{\}}
+}
 }
 \references{
 \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}

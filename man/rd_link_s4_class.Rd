@@ -10,7 +10,11 @@ rd_link_s4_class()
 Surround selected text with Rd markup to link to an S4 class.
 }
 \details{
-Example output: \verb{\linkS4class{class}}
+\itemize{
+\item User-selected text: \code{class}
+\item Result of function: \verb{\linkS4class{class}}
+\item Example output with no text selection: \verb{\linkS4class{}}
+}
 }
 \references{
 \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}

@@ -10,7 +10,11 @@ rd_email()
 Surround selected text with Rd markup for an email link.
 }
 \details{
-Example output: \verb{\email{address}}
+\itemize{
+\item User-selected text: \code{address}
+\item Result of function: \verb{\email{address}}
+\item Example output with no text selection: \verb{\email{}}
+}
 }
 \references{
 \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}

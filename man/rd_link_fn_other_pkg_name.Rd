@@ -11,7 +11,11 @@ Surround selected text (in the form 'package::function') with Rd markup that
 links to a function in another package and shows that package's name.
 }
 \details{
-Example output: \verb{\code{\link[package:function]}}
+\itemize{
+\item User-selected text: \verb{package::function}
+\item Result of function: \verb{\code{\link[package:function]}}
+\item Example output with no text selection: \verb{\code{\link[:]}}
+}
 }
 \references{
 \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}

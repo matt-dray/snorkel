@@ -22,7 +22,11 @@
 
     } else {
 
-      text_replace <- paste0(pre_string, selected_text, post_string)
+      if (!is.null(mid_string)) {
+        text_replace <- paste0(pre_string, mid_string, post_string)
+      } else {
+        text_replace <- paste0(pre_string, selected_text, post_string)
+      }
 
     }
 

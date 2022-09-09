@@ -10,7 +10,11 @@ rd_url()
 Surround selected URL text with Rd markup for a link to the web.
 }
 \details{
-Example output: \verb{\url{url}}
+\itemize{
+\item User-selected text: \code{url}
+\item Result of function: \verb{\url{url}}
+\item Example output with no text selection: \verb{\url{}}
+}
 }
 \references{
 \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}

@@ -4,7 +4,7 @@
 \name{snorkel-package}
 \alias{snorkel}
 \alias{snorkel-package}
-\title{snorkel: RStudio Addins To Help Format 'roxygen2'}
+\title{snorkel: RStudio Addin To Help Format 'roxygen2'}
 \description{
 Insert, or replace text with, formatting code for 'roxygen2' function documentation in a package, like making text bold, inserting a URL, or linking to functions in other packages.
 }

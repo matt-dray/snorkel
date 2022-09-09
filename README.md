@@ -36,7 +36,7 @@ Special cases are ‘Link To Function (Another Package)’ and ‘Link To Functi
 
 ## Help
 
-For help with {snorkel} functions, type `?snorkel::` into the R console and select from the autocomplete suggestions. You can also take a look at [the reference page on the package website](https://matt-dray.github.io/snorkel/reference/index.html).
+For help with {snorkel} functions, take a look at [the reference page on the package website](https://matt-dray.github.io/snorkel/reference/index.html), or in your R console type `?` followed by the function name for its documentation.
 
 ## Demo
 

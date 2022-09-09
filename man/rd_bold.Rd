@@ -10,7 +10,11 @@ rd_bold()
 Surround selected text with Rd markup for bold.
 }
 \details{
-Example output: \verb{\\strong\{text\}}
+\itemize{
+\item Selected text: \code{text}
+\item Result of function: \verb{\\strong\{text\}}
+\item Example output with no text selection: \verb{\\strong\{\}}
+}
 }
 \references{
 \href{https://cran.r-project.org/doc/manuals/R-exts.html#Writing-R-documentation-files}{The \emph{Writing R Extensions} manual.}
